@@ -101,4 +101,21 @@ previous.addEventListener('click',function(){
 })
 
 
-console.log(tech[0]);
+// testing the spread operator
+
+// const a = ["a","b","c"];
+// const b = ["d","e"]
+
+// console.log(b)
+
+// testing the this function
+
+const car = {
+    Manufacturer:'Toyota',
+    Name:"Camry",
+    full: function(){
+        return `The make is ${this.Manufacturer} and the Name is ${this.Name}`
+    }
+}
+
+console.log(car.full());
