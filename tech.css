@@ -1,0 +1,6 @@
+.container{
+    padding: 1rem;
+}
+.container > .jumbotron{
+   background-color: wheat ;
+}

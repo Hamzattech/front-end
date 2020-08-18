@@ -1,0 +1,29 @@
+.img-thumbnail{
+    background-color: wheat;
+    width: 10rem;
+    border-radius: 30px;
+    margin: auto;
+}
+.img-container{
+    border: 2px solid rgb(85, 85, 173);
+    border-radius: 2rem;
+    width:30rem;
+    margin: auto;
+    padding: 2rem;
+}
+img{
+    border-radius: 30px;
+}
+.row{
+    justify-content: space-around;
+}
+#previous{
+    display: none;
+}
+.btn-success,.LeaD{
+    display: none;
+}
+.btn-success{
+    width: 10rem;
+    margin: auto;
+}
